@@ -8,8 +8,8 @@
 #jaii {
   display: flex;
   flex-direction: column;
-  width: 1439px px;
-  height: 850px px;
+  width: 1439px;
+  height: 850px;
   padding: 0px 120px 80px 120px;
   gap: 80px;
   background-color: #f6f6fb;
@@ -26,22 +26,24 @@
   width: 1199px;
   height: 666px;
   padding: 80px 120px 80px 120px;
-  border-radius: 0px 0px 24px 24px;
+  border-radius: 24px;
   background-color: white;
 }
 
 .j-contact-header {
   font-family: "Inter", sans-serif;
   font-size: 44px;
-  font: 700;
+  font-weight:  700;
 }
 
 .j-contact-input {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   width: 589px;
   /* height: 322px; */
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 input {
@@ -53,7 +55,19 @@ input {
   font-size: 16px;
 }
 
+
+.j-input-name {
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+
+.j-input-email {
+    margin-top: 4px;
+  margin-bottom: 40px;
+}
+
 .j-input-message {
+    margin-top: 4px;
   width: 589px;
   height: 102px;
 }
@@ -69,8 +83,9 @@ input {
   padding: 10px;
   border-radius: 12px;
   border: 1px solid grey;
-  padding: 12px 12px 12px 16px;
+  padding: 12px 2px 2px 16px;
   font-size: 16px;
+  margin-top: 4px;
 
   .j-textarea-message::placeholder {
     position: absolute;
@@ -85,12 +100,19 @@ input {
 .j-footer {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 1199px;
+  height: 24px;
   justify-content: space-between;
+  font-family: "Inter", sans-serif;
 }
 
+.j-footer-header {
+  font-size: 16px;
+  font-weight: 500;
+}
 .j-footer-nav {
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 600;
   display: flex;
   width: 313px;
   gap: 37px;
@@ -98,12 +120,13 @@ input {
 
 .j-contact-submit {
   width: 589px;
-  font: 600;
-  font-size: 16px;
   color: white;
   background-color: #1a1a2c;
   margin-top: 20px;
-  padding: 20px 0px 20px 0px;
-  border-radius: 24px;
-  gap: 40px;
+  padding: 16px 36px 16px 36px;
+  border-radius: 16px;
+  gap: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
