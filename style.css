@@ -4,12 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
+html {
+    font-size: 16px;
+}
 .p-herosection {
     font-family: "Inter";
     background-color: #f6f6fb;
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 1440px;
 }
 .p-navbar {
     display: flex;
@@ -18,13 +22,25 @@
     align-items: center;
     background-color: #ffffff;
     border-radius: 99px;
-    margin: 24px;
+    width: 1392px;
+    height: 80px;
     padding: 12px 80px;
+
+}
+.p-navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 128px;
+    padding: 24px;
 }
 .p-menu {
     display: flex;
     flex-direction: row;
-    font-size: 1rem;
+    width: 420px;
+    height: 56px;
+    
 }
 .p-home,
 .p-feature,
@@ -34,18 +50,20 @@
     flex-direction: row;
     padding: 16px 24px;
     gap: 10px;
+    font-size: 1rem;
 }
 .p-logo {
-    width: 91px;
+    width: 91.67px;
     height: 40px;
 }
 .p-appname {
     background: rgba(86, 58, 255, 0.1);
     border-radius: 999px;
     padding: 8px 20px;
-    color:#563AFF ;
+    height: 40px;
+    color:#5E44FF ;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .p-menu a:link {
     color: black;
@@ -91,20 +109,31 @@
 .p-headline h1 {
     font-size: 80px;
     font-weight: 800;
-    font-style: normal;
+    width: 1200px;
+    height: 84px;
+    text-align: center;
+    color: #1A1A2C;
     
     
 }
 .p-subheadline {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
+    width: 1200px;
+    height: 32px;
+    text-align: center;
+    color: #1A1A2C;
 }
 .p-trial {
+    display: flex;
+    gap: 6px;
     background-color: #1A1A2C;
     border-radius: 16px;
     padding: 16px 36px;
     font-size: 1rem;
     font-weight: 600;
+    width: 187px;
+    height: 56px;
     
 }
 .p-slogan {
@@ -113,10 +142,25 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
+    width: 1200px;
+    height: 140px;
 }
 .p-container {
     display: flex;
     flex-direction: column;
     gap: 120px;
-    padding: 120px;
+    padding: 120px 120px 140px 120px;
+    width: 1440px;
 }
+p {
+    font-weight: 500;
+}
+
+.p-trial a {
+    width: 115px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
