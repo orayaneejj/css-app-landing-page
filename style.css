@@ -15,6 +15,7 @@ html {
   top: -139px;
   padding: 120px 120px 140px 120px;
   gap: 120px;
+  background-color: #f6f6fb;
 }
 .c-featSection {
   display: flex;
