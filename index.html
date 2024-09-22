@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Acme App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Po -->
@@ -13,5 +19,46 @@
     <!-- Cherry -->
 
     <!-- Jaii -->
+    <div id="jaii">
+      <div class="j-contact">
+        <h2 class="j-contact-header">Get in touch</h2>
+        <div class="j-contact-input">
+          <p>
+            <label for="j-name" class = "j.label-name">Name </label>
+          </p>
+          <p>
+            <input type="text" class="j-input-name" placeholder="John Doe" />
+          </p>
+
+          <p><label for="email">Email </label></p>
+          <p>
+            <input
+              type="email"
+              class="j-input-email"
+              placeholder="john@example.com"
+            />
+          </p>
+
+          <p><label for="message" class="j-label-message">Message </label></p>
+          <p>
+            <textarea
+              id="message"
+              class="j-textarea-message"
+              placeholder="Your Message..."
+            ></textarea>
+          </p>
+        </div>
+        <button class="j-contact-submit">Submit</button>
+      </div>
+      <div class="j-footer">
+        <p class="j-footer-header">Acme productivity app 2024&#169;</p>
+        <div class="j-footer-nav">
+          <p>FAQ</p>
+          <p>Terms</p>
+          <p>AI Policy</p>
+          <p>Pricing</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
